@@ -55,7 +55,7 @@ const customer = {
 Виклик `customer.addOrder(5000, "Steak")` додає `"Steak"` у масив значень властивості `orders` та оновлює баланс  
 Метод `getBalance` об'єкта `customer` використовує `this`  
 Метод `getDiscount` об'єкта `customer` використовує `this`  
-Метод `setDiscount` об'єкта `customer` використовує `this  
+Метод `setDiscount` об'єкта `customer` використовує `this`  
 Метод `getOrders` об'єкта `customer` використовує `this`  
 Метод `addOrder` об'єкта `customer` використовує `this`  
 
