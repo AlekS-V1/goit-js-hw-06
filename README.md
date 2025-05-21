@@ -147,6 +147,6 @@ const customer = {
 У результаті виклику `new StringBuilder(".")` значення приватної змінної `builder` — це об'єкт  
 Об'єкт `builder` не містить публічну властивість `value`  
 Перший виклик `builder.getValue()` одразу після ініціалізації екземпляра повертає рядок `.`  
-Другий виклик `builder.getValue()` після виклику `builder.padStart("^")` повертає рядок `^. ` 
+Другий виклик `builder.getValue()` після виклику `builder.padStart("^")` повертає рядок `^.`   
 Третій виклик `builder.getValue()` після виклику `builder.padEnd("^")` повертає рядок `^.^`   
 Четвертий виклик `builder.getValue()` після виклику `builder.padBoth("=")` повертає рядок `=^.^=`   
