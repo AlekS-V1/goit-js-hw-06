@@ -8,7 +8,7 @@
 Використай цей стартовий код і виконай рефакторинг. Після оголошення об'єкта ми додали виклики методів. У консоль будуть виведені результати їх роботи. Будь ласка, нічого там не змінюй.  
 
 
-
+```javascript
 const customer = {  
   username: "Mango",  
   balance: 24000,  
@@ -33,7 +33,7 @@ const customer = {
   },  
   // Change code above this line  
 };  
-
+```
 
 
 > customer.setDiscount(0.15);  
