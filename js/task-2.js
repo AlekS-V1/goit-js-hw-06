@@ -1,20 +1,20 @@
 class Storage {
-    items = [];
+    #items = [];
     constructor(items) {
-        this.items = items;
+        this.#items = items;
     }
 
     getItems() {
-        return this.items;
+        return this.#items;
      }
     
     addItem(newItem) {
-        this.items.push(newItem);
+        this.#items.push(newItem);
      }
     
     removeItem(itemToRemove) {       
-        this.items.forEach((item, index) => {
-            if (item == itemToRemove) {
+        this.#items.forEach((item, index) => {
+            if (item === itemToRemove) {
                 this.#items.splice(index, 1);
             }
         })
@@ -32,4 +32,3 @@ console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
 
 storage.removeItem("Scaner");
 console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
-
